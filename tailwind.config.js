@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.{html,js}"],
+  purge: ["*.{html,js}"],
+  content: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      'Poppins': ['Poppins', 'sans-serif'],
+    }
   },
   plugins: [
     require('daisyui'),
   ],
-  theme : []
 }
 
