@@ -56,9 +56,9 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `;
 
-        // Actualiser la page après un délai de 2 secondes
+        // Actualiser la page après un délai de 4 secondes
         setTimeout(function() {
             location.reload();
-        }, 2000);
+        }, 4000);
     });
 });
