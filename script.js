@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const correctAnswers = {
             'radio-1': 'Vrai',
             'radio-2': 'Faux',
-            'radio-3': 'Faux'
+            'radio-3': 'Faux',
+            'radio-4': 'Vrai'
         };
         
         let score = 0;
